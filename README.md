@@ -1,1 +1,1 @@
-# Malamute Games website
+Malamute Games website
