@@ -13,16 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: Malamute Games
+#TODO email:
+logo: "/assets/images/malamute_logo.png"
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  Developing video games for normal people.
+ #twitter_username: username
+#github_username: username
 minimal_mistakes_skin: default
-search: true
+#search: true
 
 # Build settings
 markdown: kramdown
@@ -57,59 +56,50 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    #author:
+    #  name   : "The malamute"
+    #  avatar : "/assets/images/malamute_small.jpg"
+    #  bio    : "My awesome biography constrained to a sentence or two goes here."
+    #  links:
+    #    - label: "Website"
+    #      icon: "fas fa-fw fa-link"
+    #      url: "https://"
+    #    - label: "Twitter"
+    #      icon: "fab fa-fw fa-twitter-square"
+    #      url: "https://twitter.com/"
+    #    - label: "GitHub"
+    #      icon: "fab fa-fw fa-github"
+    #      url: "https://github.com/"
+    #    - label: "Instagram"
+    #      icon: "fab fa-fw fa-instagram"
+    #      url: "https://instagram.com/"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
+    - label: "Contact us"
+      icon: "fab far fa-envelope"
+      url: "mailto:contact@todo.com"
+    - label: "Terms of Service"
+      icon: "fab far fa-file"
+      url: "/tos"
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+      author_profile: false
+#      show_date: false
+#      read_time: false
+      header:
+        image: /assets/images/header_small.jpg
+        caption: "© [Unsplash](https://unsplash.com)"
 
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+
+header:
+  image: "/assets/images/header_small.jpg" #todo resize width 1280
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+
+atom_feed:
+  hide: true
+
