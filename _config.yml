@@ -14,7 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Malamute Games
-#TODO email:
 logo: "/assets/images/malamute_logo.png"
 description: >- # this means to ignore newlines until "baseurl:"
   Developing video games for normal people.
@@ -78,7 +77,7 @@ footer:
   links:
     - label: "Contact us"
       icon: "fab far fa-envelope"
-      url: "mailto:contact@todo.com"
+      url: "mailto:contact@malamutegames.com"
     - label: "Terms of Service"
       icon: "fab far fa-file"
       url: "/tos"
