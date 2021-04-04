@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-Malamute Games is developing video games the way we think they should be: fun.
+Malamute Games is developing video games the way we think they should be.
 
 Malamute Games is single-handedly run by **Benjamin Mugnier**. It allows
 him to market games he wouldn't otherwise, as he's almost undercover.
