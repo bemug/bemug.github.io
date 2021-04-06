@@ -11,5 +11,5 @@ him to market games he wouldn't otherwise, as he's almost undercover.
 We strongly believe in open source software and only use OSS tools to develop
 and design. Yes, even the operating system.
 
-We're open to any **suggestions** or **business inquieries**, feel free to
+We're open to any **suggestions** or **business inquiries**, feel free to
 contact us.
